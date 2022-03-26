@@ -1,52 +1,16 @@
 import "./App.css";
+import Header from "components/Header";
 import {
   code_quiz,
   disaster_factor,
   flixandSpill,
-  images,
-  img_1838,
-  screenshot_1,
   screenshot_2,
-  screenshot_3,
 } from "./images";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <nav>
-          <h1>Jing Liu</h1>
-          <ul class="text-right">
-            <li id="margin">
-              <a href="#about-me">About Me</a>
-            </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
-            <li>
-              <a href="#contact-me">Contact Me</a>
-            </li>
-            <li>
-              <a href="./assets/Jing Liu's Resume.pdf" download>
-                Resume
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div
-        id="backgroud"
-        style={{
-          backgroundImage: `url(${images})`,
-        }}
-      >
-        <span
-          class="profileImage"
-          style={{
-            backgroundImage: `url(${img_1838})`,
-          }}
-        />
-      </div>
+      <Header />
       <main>
         <section className="section-container">
           <h2 id="about-me" className="sectionTitle">
