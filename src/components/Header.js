@@ -1,5 +1,5 @@
 import React from "react";
-import { images, img_1838, JingLiuResume } from "./images";
+import { images, img_1838, JingLiuResume } from "images";
 
 const Header = () => (
   <>
