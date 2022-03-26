@@ -6,6 +6,7 @@ import img_1838 from "./IMG_1838.JPG";
 import screenshot_1 from "./screenshot-1.png";
 import screenshot_2 from "./screenshot-2.png";
 import screenshot_3 from "./screenshot-3.png";
+import JingLiuResume from "./JingLiuResume.pdf";
 
 export {
   code_quiz,
@@ -16,4 +17,5 @@ export {
   screenshot_1,
   screenshot_2,
   screenshot_3,
+  JingLiuResume,
 };
