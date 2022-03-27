@@ -7,6 +7,8 @@ import screenshot_1 from "./screenshot-1.png";
 import screenshot_2 from "./screenshot-2.png";
 import screenshot_3 from "./screenshot-3.png";
 import JingLiuResume from "./JingLiuResume.pdf";
+import weather from "./Weather.png";
+import note from "./Note.png";
 
 export {
   code_quiz,
@@ -18,4 +20,6 @@ export {
   screenshot_2,
   screenshot_3,
   JingLiuResume,
+  weather,
+  note,
 };
