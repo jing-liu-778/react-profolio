@@ -9,7 +9,7 @@
 
 .body {
   max-width: 1440px;
-  margin:auto;
+  margin: auto;
   height: 100%;
   min-height: 100vh;
   display: flex;
@@ -44,7 +44,7 @@
 
 /* About me */
 .about-me-wrapper {
-  padding:1rem;
+  padding: 1rem;
 }
 .protfolio-image {
   width: 150px;
@@ -65,12 +65,12 @@
 /* Project */
 .project-wrapper {
   margin: 1rem;
-  background-size: auto;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   border-radius: 2rem;
-  border: .5rem dotted lightgray;
+  border: 0.5rem dotted lightgray;
   height: 400px;
   width: 100%;
   max-width: 450px;
@@ -82,7 +82,7 @@
   left: 1rem;
   display: flex;
   padding: 2rem;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 1rem;
   align-items: center;
 }
@@ -98,11 +98,13 @@
   font-weight: 600;
   font-size: 1.5rem;
   margin-right: 1rem;
-  text-shadow: 0 2px 3px #7a7a7a
+  text-shadow: 0 2px 3px #7a7a7a;
 }
 
 /* Contact */
-.contact-block, .contact-form, .contact-form label {
+.contact-block,
+.contact-form,
+.contact-form label {
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -114,7 +116,7 @@
   width: 100%;
   margin: 1rem;
   padding: 1rem;
-  border: 3px black lightgray; 
+  border: 3px black lightgray;
 }
 
 .contact-form label {
@@ -146,23 +148,22 @@
   display: flex;
   align-items: center;
 }
-.resume-download{
+.resume-download {
   font-size: 1.2rem;
   text-decoration: none;
   color: rgb(17, 17, 141);
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
-.resume-download:hover{
+.resume-download:hover {
   font-size: 1.2rem;
   color: rgb(133, 133, 133);
-  margin-left: .5rem;
-
+  margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 500px) {
   .contact-form {
     margin: 0;
-  } 
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
