@@ -2,6 +2,7 @@
   "name": "newprofile",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jing-liu-778.github.io/react-profolio/",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
