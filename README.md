@@ -25,8 +25,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-The deployed application is : https://jing-liu-778.github.io/react-profolio/
-(./src/images/portfolio.png)
+The deployed application is : https://jing-liu-778.github.io/react-profolio/ <br>
+
+(src/components/images/portfolio.png)
 
 ## License
 
