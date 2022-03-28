@@ -27,7 +27,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 The deployed application is : https://jing-liu-778.github.io/react-profolio/ <br>
 
-(src/components/images/portfolio.png)
+![portfolio](src/components/images/portfolio.png)
 
 ## License
 
